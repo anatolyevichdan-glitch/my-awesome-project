@@ -411,7 +411,7 @@ def C1(cv, t):
     x0, y0, x1, y1 = 60, 360, 1020, 1520
     cv.save(); cv.clipRect(skia.Rect(x0, y0, x1, y1))
     push(cv, M.keys(t, [(22.12, 1.0), (25.76, 1.08)]), W / 2, H * 0.5)
-    street_outside(cv, t, x0 - 200, y0, x1 + 200, y1, speed=380, stop_at=24.0)
+    street_outside(cv, t, x0 - 200, y0, x1 + 200, y1, speed=380, stop_at=24.0, sign_scale=1.9)
     cv.restore()
     # his reflection in the glass
     cv.saveLayer(None, P((255, 255, 255), 0.16))
