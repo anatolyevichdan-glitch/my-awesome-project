@@ -1,0 +1,19 @@
+Downloading: "https://dl.fbaipublicfiles.com/mms/torchaudio/ctc_alignment_mling_uroman/model.pt" to /home/hoplite/.cache/torch/hub/checkpoints/model.pt
+  0%|          | 0.00/1.18G [00:00<?, ?B/s]  2%|▏         | 22.6M/1.18G [00:00<00:05, 237MB/s]  4%|▍         | 48.2M/1.18G [00:00<00:04, 255MB/s]  6%|▌         | 73.8M/1.18G [00:00<00:04, 260MB/s]  8%|▊         | 99.6M/1.18G [00:00<00:04, 264MB/s] 10%|█         | 125M/1.18G [00:00<00:04, 259MB/s]  12%|█▏        | 150M/1.18G [00:00<00:04, 258MB/s] 14%|█▍        | 174M/1.18G [00:00<00:04, 257MB/s] 17%|█▋        | 199M/1.18G [00:00<00:04, 238MB/s] 18%|█▊        | 222M/1.18G [00:00<00:04, 239MB/s] 20%|██        | 246M/1.18G [00:01<00:04, 243MB/s] 23%|██▎       | 272M/1.18G [00:01<00:03, 252MB/s] 25%|██▍       | 298M/1.18G [00:01<00:03, 257MB/s] 27%|██▋       | 323M/1.18G [00:01<00:03, 258MB/s] 29%|██▉       | 348M/1.18G [00:01<00:03, 259MB/s] 31%|███       | 374M/1.18G [00:01<00:03, 263MB/s] 33%|███▎      | 399M/1.18G [00:01<00:03, 263MB/s] 35%|███▌      | 424M/1.18G [00:01<00:03, 262MB/s] 37%|███▋      | 449M/1.18G [00:01<00:03, 261MB/s] 39%|███▉      | 474M/1.18G [00:01<00:02, 258MB/s] 41%|████▏     | 499M/1.18G [00:02<00:02, 259MB/s] 44%|████▎     | 525M/1.18G [00:02<00:02, 263MB/s] 46%|████▌     | 552M/1.18G [00:02<00:02, 266MB/s] 48%|████▊     | 577M/1.18G [00:02<00:02, 263MB/s] 50%|█████     | 603M/1.18G [00:02<00:02, 265MB/s] 52%|█████▏    | 628M/1.18G [00:02<00:02, 265MB/s] 54%|█████▍    | 654M/1.18G [00:02<00:02, 260MB/s] 56%|█████▋    | 679M/1.18G [00:02<00:02, 262MB/s] 59%|█████▊    | 704M/1.18G [00:02<00:02, 254MB/s] 61%|██████    | 728M/1.18G [00:02<00:01, 254MB/s] 63%|██████▎   | 754M/1.18G [00:03<00:01, 256MB/s] 65%|██████▍   | 780M/1.18G [00:03<00:01, 261MB/s] 67%|██████▋   | 805M/1.18G [00:03<00:01, 253MB/s] 69%|██████▉   | 830M/1.18G [00:03<00:01, 236MB/s] 71%|███████   | 852M/1.18G [00:03<00:01, 233MB/s] 73%|███████▎  | 876M/1.18G [00:03<00:01, 239MB/s] 75%|███████▍  | 900M/1.18G [00:03<00:01, 237MB/s] 77%|███████▋  | 923M/1.18G [00:03<00:01, 240MB/s] 79%|███████▊  | 946M/1.18G [00:03<00:01, 218MB/s] 81%|████████  | 971M/1.18G [00:04<00:01, 230MB/s] 83%|████████▎ | 997M/1.18G [00:04<00:00, 241MB/s] 85%|████████▍ | 1.00G/1.18G [00:04<00:00, 244MB/s] 87%|████████▋ | 1.02G/1.18G [00:04<00:00, 245MB/s] 89%|████████▉ | 1.04G/1.18G [00:04<00:00, 249MB/s] 91%|█████████ | 1.07G/1.18G [00:04<00:00, 254MB/s] 93%|█████████▎| 1.09G/1.18G [00:04<00:00, 253MB/s] 95%|█████████▌| 1.12G/1.18G [00:04<00:00, 256MB/s] 97%|█████████▋| 1.14G/1.18G [00:04<00:00, 206MB/s] 99%|█████████▉| 1.17G/1.18G [00:05<00:00, 221MB/s]100%|██████████| 1.18G/1.18G [00:05<00:00, 248MB/s]
+Traceback (most recent call last):
+  File "/tmp/venv/lib/python3.12/site-packages/torchaudio/_torchcodec.py", line 82, in load_with_torchcodec
+    from torchcodec.decoders import AudioDecoder
+ModuleNotFoundError: No module named 'torchcodec'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/hoplite/workspace/ep1b/align.py", line 14, in <module>
+    wav, sr = torchaudio.load('narr.mp3')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/venv/lib/python3.12/site-packages/torchaudio/__init__.py", line 86, in load
+    return load_with_torchcodec(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/venv/lib/python3.12/site-packages/torchaudio/_torchcodec.py", line 84, in load_with_torchcodec
+    raise ImportError(
+ImportError: TorchCodec is required for load_with_torchcodec. Please install torchcodec to use this function.
