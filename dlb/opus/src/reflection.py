@@ -80,7 +80,7 @@ def boy_pose_A(t):
     p.head_pitch = M.keys(t, [(35.4, 0.05), (36.0, -0.02), (38.5, 0.04)])
     p.lean = M.keys(t, [(35.4, 0.0), (37.0, 0.0), (38.5, 0.07)])
     p.e = M.kexpr(t, [(35.4, 'calm'), (36.3, 'calm'), (37.2, EX['confusion']), (38.5, EX['worried'] | dict(brow=0.4))], EX)
-    p.blink = M.blink_at(t, [36.55, 37.95])
+    p.blink = M.blink_at(t, [33.9, 36.55, 37.95])
     return p
 
 
@@ -117,7 +117,7 @@ def draw_reflection(cv, q, x, y, s, yaw, alpha=0.85):
 # ------------------------------------------------------------------ A: two-shot
 def shotA(cv, t):
     u = t - 35.4
-    push = M.keys(t, [(35.4, 1.0), (38.5, 1.08)], fn=M.smooth)
+    push = M.keys(t, [(32.6, 1.0), (38.5, 1.1)], fn=M.smooth)
     cv.translate(W * 0.45, H * 0.5); cv.scale(push, push); cv.translate(-W * 0.45, -H * 0.5)
     # wall
     cv.drawRect(skia.Rect(0, 0, W, H), P(shader=lin((0, 0), (0, H), (36, 40, 60), (26, 28, 42))))
@@ -138,6 +138,7 @@ def shotA(cv, t):
     a = toon.draw(cv, p, 830, 1840, 0.86, yaw=-2.35, cam_pitch=0.04, look=lk)
     # his breath — the reflection has none
     mx, my = a['mouth']
+    Wd.breath_puff(cv, mx - 30, my, (t - 33.2) / 1.1, s=0.9, side=-1)
     Wd.breath_puff(cv, mx - 30, my, (t - 35.5) / 1.1, s=0.9, side=-1)
     Wd.breath_puff(cv, mx - 30, my, (t - 37.6) / 1.1, s=0.7, side=-1)
     Wd.rainfall(cv, t, seed=2, n=80, alpha=0.25)

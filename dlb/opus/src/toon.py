@@ -253,7 +253,11 @@ def draw_head(cv, S, p, cam, s, look, black_eyes=False):
         lid = max(0.0, min(1.0, e['lid'] + p.blink * (1 - e['lid'])))
         low = e['lidlow']
         eye = skia.Path(); eye.addOval(skia.Rect(-rx, -ry, rx, ry))
-        if black_eyes:
+        if lid > 0.97 and low <= 0.01:
+            # fully shut: a flat lid fill shows as a pale oval on the shaded face, so draw only the lash line
+            cv.drawArc(skia.Rect(-rx * 0.9, -ry * 0.2, rx * 0.9, ry * 0.5), 15, 150, False,
+                       P(T(PAL['skin_line']), 0.8 * a, style='stroke', width=0.03))
+        elif black_eyes:
             cv.drawPath(eye, P(T(PAL['black_eye']), a))
             cv.drawOval(skia.Rect(-rx * 0.55, -ry * 0.62, -rx * 0.05, -ry * 0.25), P((90, 96, 120), 0.45 * a, blur=0.02))
         else:
@@ -268,7 +272,7 @@ def draw_head(cv, S, p, cam, s, look, black_eyes=False):
             cv.drawCircle(gx + pr_ * 0.35, gy - pr_ * 0.4, pr_ * 0.28, P((255, 255, 255), 0.8 * a))
             cv.restore()
         # eyelids (skin) from top / bottom
-        if lid > 0.01 or low > 0.01:
+        if (lid > 0.01 or low > 0.01) and not (lid > 0.97 and low <= 0.01):
             cv.save(); cv.clipPath(eye, skia.ClipOp.kIntersect, True)
             tilt_lid = (e['tilt'] if sd == 1 or e.get('tiltL') is None else e['tiltL']) * 0.25 * sd
             ytop = -ry + 2 * ry * lid
@@ -280,7 +284,7 @@ def draw_head(cv, S, p, cam, s, look, black_eyes=False):
                 yb = ry - 2 * ry * low * 0.5
                 cv.drawRect(skia.Rect(-rx * 1.3, yb, rx * 1.3, ry * 1.3), P(T(PAL['skin']), a))
             cv.restore()
-        cv.drawPath(eye, P(T(PAL['skin_line']), 0.35 * a, style='stroke', width=0.018))
+        cv.drawPath(eye, P(T(PAL['skin_line']), 0.35 * a * (1 - lid) ** 2, style='stroke', width=0.018))
         # brow: thick rounded bar; brow raises it, tilt rotates (inner end up = worried)
         tilt = e['tilt'] if sd == 1 or e.get('tiltL') is None else e['tiltL']
         by = -ry - 0.09 - 0.085 * brow_v

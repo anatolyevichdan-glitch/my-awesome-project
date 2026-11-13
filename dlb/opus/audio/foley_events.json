@@ -1,0 +1,754 @@
+[
+{
+"t": 0.545,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 1.088,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 1.632,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 2.175,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 2.718,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 3.262,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 3.805,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 4.348,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 4.892,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 5.435,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 5.978,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 6.523,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 7.067,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 7.61,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 8.153,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 8.697,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 9.24,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 9.747,
+"kind": "step",
+"foot": -1,
+"gain": 0.55,
+"who": "creature",
+"lin": true
+},
+{
+"t": 9.783,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 10.292,
+"kind": "step",
+"foot": 1,
+"gain": 0.55,
+"who": "creature",
+"lin": true
+},
+{
+"t": 10.327,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 10.838,
+"kind": "step",
+"foot": -1,
+"gain": 0.55,
+"who": "creature",
+"lin": true
+},
+{
+"t": 10.87,
+"kind": "step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 11.383,
+"kind": "step",
+"foot": 1,
+"gain": 0.55,
+"who": "creature",
+"lin": true
+},
+{
+"t": 11.413,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 12.358,
+"kind": "step",
+"foot": -1,
+"gain": 1.05,
+"who": "hero",
+"lin": true
+},
+{
+"t": 12.413,
+"kind": "step",
+"foot": -1,
+"gain": 0.7,
+"who": "creature",
+"lin": true
+},
+{
+"t": 12.712,
+"kind": "step",
+"foot": 1,
+"gain": 1.05,
+"who": "hero",
+"lin": true
+},
+{
+"t": 12.812,
+"kind": "step",
+"foot": 1,
+"gain": 0.7,
+"who": "creature",
+"lin": true
+},
+{
+"t": 13.055,
+"kind": "step",
+"foot": -1,
+"gain": 1.05,
+"who": "hero",
+"lin": true
+},
+{
+"t": 13.205,
+"kind": "step",
+"foot": -1,
+"gain": 0.7,
+"who": "creature",
+"lin": true
+},
+{
+"t": 13.397,
+"kind": "step",
+"foot": 1,
+"gain": 1.05,
+"who": "hero",
+"lin": true
+},
+{
+"t": 13.593,
+"kind": "step",
+"foot": 1,
+"gain": 0.7,
+"who": "creature",
+"lin": true
+},
+{
+"t": 13.735,
+"kind": "step",
+"foot": -1,
+"gain": 1.05,
+"who": "hero",
+"lin": true
+},
+{
+"t": 13.978,
+"kind": "step",
+"foot": -1,
+"gain": 0.7,
+"who": "creature",
+"lin": true
+},
+{
+"t": 14.068,
+"kind": "step",
+"foot": 1,
+"gain": 1.05,
+"who": "hero",
+"lin": true
+},
+{
+"t": 14.698,
+"kind": "step",
+"foot": -1,
+"gain": 0.6,
+"who": "creature",
+"lin": true
+},
+{
+"t": 14.717,
+"kind": "step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 14.95,
+"kind": "scuff",
+"foot": 1,
+"gain": 0.8,
+"who": "hero",
+"lin": true
+},
+{
+"t": 15.323,
+"kind": "step",
+"foot": 1,
+"gain": 0.6,
+"who": "creature",
+"lin": true
+},
+{
+"t": 18.0,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.55,
+"who": "hero",
+"lin": true
+},
+{
+"t": 23.1,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.3,
+"who": "hero",
+"lin": true
+},
+{
+"t": 27.4,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.18,
+"who": "hero",
+"lin": true
+},
+{
+"t": 29.6,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.2,
+"who": "hero",
+"lin": true
+},
+{
+"t": 43.42,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.8,
+"who": "hero",
+"lin": true
+},
+{
+"t": 43.5,
+"kind": "scuff",
+"foot": -1,
+"gain": 0.6,
+"who": "hero",
+"lin": true
+},
+{
+"t": 43.86,
+"kind": "step",
+"foot": 1,
+"gain": 1.2,
+"who": "hero",
+"lin": true
+},
+{
+"t": 44.05,
+"kind": "step",
+"foot": -1,
+"gain": 0.8,
+"who": "hero",
+"lin": true
+},
+{
+"t": 56.7,
+"kind": "scuff",
+"foot": -1,
+"gain": 0.35,
+"who": "hero",
+"lin": true
+},
+{
+"t": 59.592,
+"kind": "run_step",
+"foot": -1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 59.75,
+"kind": "splash",
+"foot": 0,
+"gain": 0.55,
+"who": "hero",
+"lin": true
+},
+{
+"t": 59.937,
+"kind": "run_step",
+"foot": 1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 60.282,
+"kind": "run_step",
+"foot": -1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 60.55,
+"kind": "splash",
+"foot": 0,
+"gain": 0.55,
+"who": "hero",
+"lin": true
+},
+{
+"t": 60.6,
+"kind": "breath",
+"foot": -1,
+"gain": 0.85,
+"who": "hero",
+"lin": true
+},
+{
+"t": 60.627,
+"kind": "run_step",
+"foot": 1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 60.96,
+"kind": "breath",
+"foot": 1,
+"gain": 0.95,
+"who": "hero",
+"lin": true
+},
+{
+"t": 60.972,
+"kind": "run_step",
+"foot": -1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 61.345,
+"kind": "run_step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 61.4,
+"kind": "breath",
+"foot": -1,
+"gain": 0.85,
+"who": "hero",
+"lin": true
+},
+{
+"t": 61.69,
+"kind": "run_step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 61.76,
+"kind": "breath",
+"foot": 1,
+"gain": 0.95,
+"who": "hero",
+"lin": true
+},
+{
+"t": 62.035,
+"kind": "run_step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 62.2,
+"kind": "breath",
+"foot": -1,
+"gain": 0.85,
+"who": "hero",
+"lin": true
+},
+{
+"t": 62.38,
+"kind": "run_step",
+"foot": 1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 62.56,
+"kind": "breath",
+"foot": 1,
+"gain": 0.95,
+"who": "hero",
+"lin": true
+},
+{
+"t": 62.725,
+"kind": "run_step",
+"foot": -1,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 63.0,
+"kind": "breath",
+"foot": -1,
+"gain": 0.85,
+"who": "hero",
+"lin": true
+},
+{
+"t": 63.335,
+"kind": "run_step",
+"foot": -1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 63.36,
+"kind": "breath",
+"foot": 1,
+"gain": 0.95,
+"who": "hero",
+"lin": true
+},
+{
+"t": 63.4,
+"kind": "splash",
+"foot": 0,
+"gain": 0.55,
+"who": "hero",
+"lin": true
+},
+{
+"t": 63.668,
+"kind": "run_step",
+"foot": 1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 63.8,
+"kind": "breath",
+"foot": -1,
+"gain": 0.85,
+"who": "hero",
+"lin": true
+},
+{
+"t": 64.002,
+"kind": "run_step",
+"foot": -1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 64.16,
+"kind": "breath",
+"foot": 1,
+"gain": 0.95,
+"who": "hero",
+"lin": true
+},
+{
+"t": 64.2,
+"kind": "splash",
+"foot": 0,
+"gain": 0.55,
+"who": "hero",
+"lin": true
+},
+{
+"t": 64.335,
+"kind": "run_step",
+"foot": 1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 64.668,
+"kind": "run_step",
+"foot": -1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 64.9,
+"kind": "impact",
+"foot": 0,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 64.92,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 65.12,
+"kind": "step",
+"foot": 1,
+"gain": 1.0,
+"who": "hero",
+"lin": true
+},
+{
+"t": 65.3,
+"kind": "scuff",
+"foot": -1,
+"gain": 0.6,
+"who": "hero",
+"lin": true
+},
+{
+"t": 65.9,
+"kind": "breath",
+"foot": 0,
+"gain": 0.6,
+"who": "hero",
+"lin": true
+},
+{
+"t": 74.98,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.9,
+"who": "hero",
+"lin": true
+},
+{
+"t": 75.1,
+"kind": "scuff",
+"foot": 1,
+"gain": 0.5,
+"who": "hero",
+"lin": true
+},
+{
+"t": 81.6,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.75,
+"who": "hero",
+"lin": true
+},
+{
+"t": 81.8,
+"kind": "scuff",
+"foot": -1,
+"gain": 0.6,
+"who": "hero",
+"lin": true
+},
+{
+"t": 82.0,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.75,
+"who": "hero",
+"lin": true
+},
+{
+"t": 82.45,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.75,
+"who": "hero",
+"lin": true
+},
+{
+"t": 82.7,
+"kind": "scuff",
+"foot": 1,
+"gain": 0.5,
+"who": "hero",
+"lin": true
+},
+{
+"t": 82.9,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.75,
+"who": "hero",
+"lin": true
+},
+{
+"t": 83.35,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.75,
+"who": "hero",
+"lin": true
+},
+{
+"t": 91.2,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.5,
+"who": "hero",
+"lin": true
+},
+{
+"t": 93.3,
+"kind": "rustle",
+"foot": 0,
+"gain": 0.4,
+"who": "hero",
+"lin": true
+}
+]
