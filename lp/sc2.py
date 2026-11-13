@@ -561,16 +561,20 @@ def E7(cv, t):
     items = cabin_people(cv, cam, t, hl=hl, heads=heads, babka_e=EX['babka_calm'] | dict(gx=0.0, lid=0.2), babka_pitch=0.05)
     dim = 0.7 if hl is not None else 1.0
     E.bus_interior(cv, t, cam, lights=1.0, flicker=dim * flick(t, [(80.4, 0.2)]), moving=1.0, items=items, rear_dark=0.25)
-    # pointing finger glides to the current head
-    if hl is not None and hl in heads:
-        prev = heads.get(hl - 1, heads[hl])[0] if hl > 0 else (W * 0.7, H * 0.8)
-        k = M.smooth((t - COUNT[hl] + 0.05) / 0.25)
-        hx = prev[0] + (heads[hl][0][0] - prev[0]) * k
-        hy = prev[1] + (heads[hl][0][1] - prev[1]) * k
-        r = heads[hl][1]
-        cv.drawCircle(heads[hl][0][0], heads[hl][0][1], r * 2.2, P((200, 255, 220), 0.12, blur=r))
-        tip = (hx + 40, hy + r * 1.4 + 120)
-        arm_into_frame(cv, (W + 120, H + 200), tip, w=120, hand_r=70)
+    # every counted face keeps a faint ring + its number; the current one is bright
+    for i in range(0 if hl is None else hl + 1):
+        if i not in heads:
+            continue
+        (x, y), r = heads[i]
+        cur = i == hl
+        k = M.smooth((t - COUNT[i] + 0.05) / 0.2)
+        a = (0.95 if cur else 0.45) * k
+        rr = r * (1.55 + 0.25 * (1 - k))
+        cv.drawCircle(x, y, rr, P((235, 245, 235), a, style='stroke', width=6 if cur else 4))
+        if cur:
+            cv.drawCircle(x, y, rr * 1.4, P((200, 255, 220), 0.10 * k, blur=r))
+        sz = 88 if cur else 54
+        E.text_c(cv, str(i + 1), x, y - rr - 22, sz, (250, 250, 240), a)
     return dict(vign=0.7)
 
 
@@ -808,24 +812,47 @@ def G4(cv, t):
 
 
 def G5(cv, t):
-    """130.04–133.36 «Только его лицо полностью обгорело.» the room light flickers on: burned face"""
+    """130.04–133.36 «Только его лицо полностью обгорело.» lamp stutters on: it is him, burned; the hand
+    rises slowly and the smile spreads too wide"""
     u = (t - 130.04) / 3.32
-    fl = flick(t, [(130.1, 0.5), (131.9, 0.15)], depth=1.0)
-    rev = M.keys(t, [(130.1, 0.0), (130.6, 1.0)])
-    cv.drawRect(skia.Rect(0, 0, W, H), P(mix((8, 8, 10), (230, 184, 130), fl)))
-    cv.drawRect(skia.Rect(0, 1300, 260, H), P(mix((4, 4, 4), (150, 100, 70), fl)))
-    p = R.Pose(); M.stand(p, t=0)
-    p.e = EX['blank'] | dict(smile=0.2 + 0.5 * M.smooth((t - 131.2) / 1.2), gx=0.0, gy=-0.3, lid=0.15)
-    p.hand[1] = V(90, 150 + 22 * math.sin(t * 9), 40); p.hand_mode[1] = 'open'
-    tint = 0.06 + 0.94 * rev * fl
-    figh(cv, 'burned', p, W / 2 + 20, 880, 3.4 + 0.7 * u, yaw=0.08,
-         lk=LK(key=(0.0, -0.5), rim=(255, 180, 120), rim_w=8, tint=(tint, tint * 0.92, tint * 0.88)))
-    # window frame + rain on the glass in front
-    cv.drawRect(skia.Rect(0, 0, W, H), P((40, 40, 46), style='stroke', width=70))
-    cv.drawRect(skia.Rect(0, 0, W, H), P((80, 100, 140), 0.07))
-    wet_glass(cv, skia.Rect(0, 0, W, H), t, n=50, seed=8, a=0.15)
+    # one short stutter, then the lamp holds — the face stays readable for most of the shot
+    fl = flick(t, [(130.04, 0.22), (132.1, 0.08)], depth=0.9)
+    rev = M.keys(t, [(130.04, 0.15), (130.3, 1.0)])
+    lit = rev * fl
+    # room behind him: wallpaper, door frame, hanging bulb
+    cv.drawRect(skia.Rect(0, 0, W, H), P(shader=lin((0, 0), (0, H), mix((6, 6, 8), (196, 150, 100), lit), mix((4, 4, 6), (120, 84, 56), lit))))
+    for i in range(7):
+        x = 40 + i * 170
+        cv.drawRect(skia.Rect(x, 0, x + 6, H), P(mix((0, 0, 0), (170, 124, 82), lit), 0.6))
+    cv.drawRect(skia.Rect(780, 260, 1000, H), P(mix((4, 4, 4), (90, 60, 40), lit)))
+    sway = 14 * math.sin(t * 1.7)
+    cv.drawLine(300, 0, 300 + sway, 210, P((20, 16, 14), style='stroke', width=4))
+    cv.drawCircle(300 + sway, 240, 34, P(mix((40, 36, 30), (255, 236, 190), lit)))
+    cv.drawCircle(300 + sway, 240, 260, P((255, 220, 150), 0.35 * lit, blur=70))
+    # the double: slow push in, hand rises from his side, smile widens past natural
+    p = R.Pose(); M.stand(p, t=t, breath=0.1)
+    raise_k = M.keys(t, [(130.4, 0.0), (132.4, 1.0)])
+    p.hand[1] = V(25 + 80 * raise_k, -345 + 520 * raise_k, 20 + 30 * raise_k)
+    p.hand_mode[1] = 'open' if raise_k > 0.3 else 'relaxed'
+    if raise_k >= 1.0:
+        p.hand[1] = p.hand[1] + V(0, 0, 0)
+    p.head_roll = 0.10 * M.smooth((t - 131.0) / 1.5)          # wrong, slight tilt
+    p.head_pitch = -0.06
+    sm = M.smooth((t - 130.9) / 1.9)
+    p.e = EX['neutral'] | dict(smile=0.1 + 0.95 * sm, mw=0.9 + 0.5 * sm, asym=0.35 * sm, lid=0.05, pupil=0.42,
+                               gx=0.0, gy=0.0, brow=-0.15 * sm, mopen=0.0)
+    p.blink = 0.0                                              # never blinks
+    s = 2.55 + 0.45 * M.smooth(u)
+    tint = 0.08 + 0.92 * lit
+    figh(cv, 'burned', p, W / 2 + shake(t, 1.5, 3), 760, s, yaw=0.06,
+         lk=LK(key=(-0.3, -0.7), rim=(255, 190, 130), rim_w=8, tint=(tint, tint * 0.93, tint * 0.88)))
+    # window frame + cross bar + rain on the glass in front
+    cv.drawRect(skia.Rect(0, 0, W, H), P((30, 30, 36), style='stroke', width=90))
+    cv.drawRect(skia.Rect(0, 1420, W, 1470), P((30, 30, 36)))
+    cv.drawRect(skia.Rect(0, 0, W, H), P((80, 100, 140), 0.06))
+    wet_glass(cv, skia.Rect(0, 0, W, H), t, n=50, seed=8, a=0.13)
     rain(cv, t, n=80, alpha=0.2)
-    return dict(vign=0.8)
+    return dict(vign=0.78)
 
 
 def G6(cv, t):
