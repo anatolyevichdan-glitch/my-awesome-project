@@ -1,0 +1,1 @@
+Remaster source: render.py range A B frames_dir (needs skia-python, numpy, pillow); then ffmpeg encode frames + audio/mix_master.wav. Scenes: scenes.py/env.py; rig: rig.py; shots: shots_a.py shots_b.py
