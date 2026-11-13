@@ -1,0 +1,118 @@
+{
+ "length_s": {
+  "narration": 134.92245833333334,
+  "music": 134.92245833333334,
+  "ambience": 134.92245833333334,
+  "foley": 134.92245833333334,
+  "sfx": 134.92245833333334,
+  "master": 134.92245833333334,
+  "narration_original": 134.92245833333334
+ },
+ "sum_vs_master_max_abs_err": 4.76837158203125e-07,
+ "peak_abs": 0.8390110731124878,
+ "clipped_samples_ge_0.999": 0,
+ "true_peak_dBTP": -1.514331879499472,
+ "integrated_LUFS_own_meter": -17.48986521489408,
+ "ffmpeg_ebur128": {
+  "I": -17.5,
+  "LRA": 6.6,
+  "TP": -1.5
+ },
+ "narration_gain_dB": 1.4549961041650543,
+ "narration_residual_after_gain_max": 1.2016052841623548e-07,
+ "voice_speech_median_momentary_LUFS": -17.368220596004726,
+ "stems_vs_voice_while_speaking": {
+  "music": {
+   "speech_windows_checked": 1541,
+   "median_rel_voice_LU": -21.453793396588345,
+   "closest_rel_voice_LU": -11.065083683457516,
+   "windows_within_8LU": 0,
+   "windows_within_10LU": 0,
+   "windows_within_8LU_in_sting_window_132.1-133.0": 0,
+   "pause_median_rel_voice_LU": 27.587448455340983,
+   "closest_rel_voice_within_all_speech_windows": -11.065083683457516
+  },
+  "ambience": {
+   "speech_windows_checked": 1623,
+   "median_rel_voice_LU": -17.223470754093515,
+   "closest_rel_voice_LU": -3.070511857638394,
+   "windows_within_8LU": 4,
+   "windows_within_10LU": 6,
+   "windows_within_8LU_in_sting_window_132.1-133.0": 0
+  },
+  "foley": {
+   "speech_windows_checked": 384,
+   "median_rel_voice_LU": -27.816951398797293,
+   "closest_rel_voice_LU": -9.087579688375527,
+   "windows_within_8LU": 0,
+   "windows_within_10LU": 1,
+   "windows_within_8LU_in_sting_window_132.1-133.0": 0
+  },
+  "sfx": {
+   "speech_windows_checked": 776,
+   "median_rel_voice_LU": -27.39289041811464,
+   "closest_rel_voice_LU": -5.731377804529551,
+   "windows_within_8LU": 1,
+   "windows_within_10LU": 3,
+   "windows_within_8LU_in_sting_window_132.1-133.0": 0
+  },
+  "all_non_voice_sum": {
+   "speech_windows_checked": 1623,
+   "median_rel_voice_LU": -15.35634376916186,
+   "closest_rel_voice_LU": -2.0045368193711397,
+   "windows_within_8LU": 6,
+   "windows_within_10LU": 59,
+   "windows_within_8LU_in_sting_window_132.1-133.0": 0
+  }
+ },
+ "short_100ms_rms_rel_voice_while_speaking_dB": {
+  "foley": {
+   "max": 34.533852863602334,
+   "p99": -6.910900938465812
+  },
+  "sfx": {
+   "max": 44.0384290639398,
+   "p99": -3.773252030217784
+  }
+ },
+ "rms_dBFS_127.1-132.3": {
+  "music": -200.0,
+  "ambience": -53.963775935628604,
+  "foley": -200.0,
+  "sfx": -72.41792010676605,
+  "all_non_voice": -53.90084447090671,
+  "narration": -24.026238060566637
+ },
+ "rms_dBFS_127.1-132.2_music_max_abs": 0.0,
+ "rms_dBFS_108.6-112.6": {
+  "music": -39.34943656873369,
+  "ambience": -47.341673068661876,
+  "foley": -200.0,
+  "sfx": -200.0,
+  "all_non_voice": -38.70691857605327,
+  "narration": -21.536375046447418
+ },
+ "after_132.8_non_voice_max_abs": 0.0,
+ "after_132.81_non_voice_max_abs": 0.0,
+ "sting_132.3-132.8": {
+  "peak_dBFS_of_sfx": -19.18291098475665,
+  "narration_peak_dBFS_same_window": -14.291441965299947,
+  "master_true_peak_in_window": -10.233049007333811
+ },
+ "blackout_92.55-93.35_non_voice_rms_dBFS_excluding_sfx": -72.69837658351864,
+ "music_rms_dBFS_sections": {
+  "0-6.5": -39.70366468448198,
+  "6.5-10.2": -38.65197079296489,
+  "10.2-17.9": -39.05967575924424,
+  "18-36": -38.72025295400548,
+  "36-44.3": -39.17520734715736,
+  "46.5-60": -40.738838030450104,
+  "60-74": -37.813635692162165,
+  "74-92.5": -39.01515188777328,
+  "93-95": -66.3977816443201,
+  "95-104.6": -39.230625410418384,
+  "104.6-108.6": -40.262468089611815,
+  "112.6-118.3": -43.68873243152437,
+  "118.3-127.1": -38.32033507848677
+ }
+}
