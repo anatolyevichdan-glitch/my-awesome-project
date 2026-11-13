@@ -1,0 +1,111 @@
+{
+ "duration_s": 108.4,
+ "prominent_moments": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  9
+ ],
+ "events": [
+  {
+   "t": 7.9,
+   "name": "shadow_swell",
+   "moment": 1,
+   "prominent": true,
+   "desc": "low swell 7.9-11.6 s, no impact"
+  },
+  {
+   "t": 17.6,
+   "name": "phone_vibration",
+   "moment": 2,
+   "prominent": true,
+   "desc": "2-pulse vibration muffled by cloth"
+  },
+  {
+   "t": 19.0,
+   "name": "notification_1",
+   "moment": 2,
+   "prominent": true,
+   "desc": "soft two-note notification"
+  },
+  {
+   "t": 38.6,
+   "name": "reflection_dropout",
+   "moment": 3,
+   "prominent": true,
+   "desc": "music/ambience/foley dip 38.6-43.4 s (no stinger); very quiet glass squeak at 40.95 s. 'Tss' reverb tail removed"
+  },
+  {
+   "t": 45.0,
+   "name": "notification_2",
+   "moment": 4,
+   "prominent": true,
+   "desc": "same soft two-note tone as 19.0 s"
+  },
+  {
+   "t": 50.2,
+   "name": "notification_3",
+   "moment": 4,
+   "prominent": false,
+   "desc": "quieter, shorter version of the tone"
+  },
+  {
+   "t": 56.6,
+   "name": "lamp_1_off",
+   "moment": 5,
+   "prominent": true,
+   "desc": "short electrical clunk + dying buzz"
+  },
+  {
+   "t": 57.37,
+   "name": "lamp_2_off",
+   "moment": 5,
+   "prominent": true,
+   "desc": "short electrical clunk + dying buzz"
+  },
+  {
+   "t": 58.2,
+   "name": "lamp_3_off",
+   "moment": 5,
+   "prominent": true,
+   "desc": "short electrical clunk + dying buzz"
+  },
+  {
+   "t": 59.1,
+   "name": "escape_whoosh",
+   "moment": 6,
+   "prominent": true,
+   "desc": "subtle cloth whoosh (footstep burst comes from foley)"
+  },
+  {
+   "t": 64.9,
+   "name": "collision",
+   "moment": 7,
+   "prominent": true,
+   "desc": "single dull body impact (cloth + thud); music/ambience dip 64.9-66.6 s"
+  },
+  {
+   "t": 95.2,
+   "name": "rooftop_reveal",
+   "moment": 9,
+   "prominent": true,
+   "desc": "deep slow swell 94.5-101.8 s + distant structural groan 95.2-100.8 s"
+  }
+ ],
+ "foley_source": "default cadence",
+ "levels_db_re_voice_loud_speech": {
+  "music_during_speech": -22.0,
+  "ambience_during_speech": -27.0,
+  "foley_peak": -8.0,
+  "sfx_loudest_window": -5.0
+ },
+ "master": {
+  "I": -16.0,
+  "LRA": 5.6,
+  "TP": -1.8
+ }
+}
