@@ -1,0 +1,114 @@
+[
+ {
+  "t": 1.2,
+  "name": "shadow_swell",
+  "moment": 1,
+  "prominent": true,
+  "desc": "low-frequency swell + sub pressure change 1.2-3.8 s"
+ },
+ {
+  "t": 17.6,
+  "name": "phone_vibration",
+  "moment": 2,
+  "prominent": true,
+  "desc": "2-pulse vibration muffled by cloth"
+ },
+ {
+  "t": 19.0,
+  "name": "notification_1",
+  "moment": 2,
+  "prominent": false,
+  "desc": "soft two-note notification"
+ },
+ {
+  "t": 38.6,
+  "name": "reflection_dropout",
+  "moment": 3,
+  "prominent": true,
+  "desc": "ambience/music/foley dip ~-17 dB 38.6-43.4 (no stinger); skin-on-glass squeak 40.95"
+ },
+ {
+  "t": 42.1,
+  "name": "tss_tail",
+  "moment": 3,
+  "prominent": false,
+  "desc": "breathy reverb tail of 'Тсс!' only"
+ },
+ {
+  "t": 45.0,
+  "name": "notification_2",
+  "moment": 4,
+  "prominent": true,
+  "desc": "same phone tone"
+ },
+ {
+  "t": 50.2,
+  "name": "notification_3",
+  "moment": 4,
+  "prominent": false,
+  "desc": "same tone, shorter"
+ },
+ {
+  "t": 51.8,
+  "name": "inside_tone",
+  "moment": 4,
+  "prominent": false,
+  "desc": "low tonal swell (G1/G#1 cluster)"
+ },
+ {
+  "t": 56.6,
+  "name": "lamp_1_off",
+  "moment": 5,
+  "prominent": true,
+  "desc": "clunk + decaying buzz + pitch-down tone (distinct per lamp)"
+ },
+ {
+  "t": 57.4,
+  "name": "lamp_2_off",
+  "moment": 5,
+  "prominent": true,
+  "desc": "clunk + decaying buzz + pitch-down tone (distinct per lamp)"
+ },
+ {
+  "t": 58.2,
+  "name": "lamp_3_off",
+  "moment": 5,
+  "prominent": true,
+  "desc": "clunk + decaying buzz + pitch-down tone (distinct per lamp)"
+ },
+ {
+  "t": 64.9,
+  "name": "collision",
+  "moment": 7,
+  "prominent": true,
+  "desc": "single dull body impact + short ringing silence (dip 64.9-66.6)"
+ },
+ {
+  "t": 71.8,
+  "name": "black_eyes",
+  "moment": 8,
+  "prominent": true,
+  "desc": "restrained low rumble swell + thin high shimmer"
+ },
+ {
+  "t": 95.2,
+  "name": "rooftop_reveal",
+  "moment": 9,
+  "prominent": true,
+  "desc": "deep sub swell 94.5-101.8 + distant metallic groan 95.2-100.8"
+ },
+ {
+  "t": 102.836,
+  "name": "creature_voice",
+  "moment": 10,
+  "prominent": true,
+  "desc": "narration segment pitched -3 st, low-passed, doubled (70 ms delay + 2.4 s reverb)"
+ },
+ {
+  "t": 105.4,
+  "name": "black_cut_tail",
+  "moment": 11,
+  "prominent": true,
+  "desc": "near silence with very low fading sub tail"
+ }
+]
