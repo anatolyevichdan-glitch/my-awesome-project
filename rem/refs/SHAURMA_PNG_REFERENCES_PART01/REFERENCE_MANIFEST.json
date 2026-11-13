@@ -1,0 +1,277 @@
+{
+  "description": "PNG still frames and character-focused crops extracted from original user-provided animated episodes. Crops retain background, and are not layered rigs or transparent cutouts.",
+  "sources": {
+    "PAPA_VERNULSYA_EP3": {
+      "source_file": "PAPA_VERNULSYA_EP3_FINAL.mp4",
+      "times_seconds": [
+        3,
+        8,
+        12,
+        13,
+        18,
+        23,
+        30,
+        34,
+        44,
+        54,
+        65,
+        75,
+        85,
+        95,
+        105,
+        115
+      ],
+      "duration": 120.0
+    },
+    "PAPA_VERNULSYA_UPGRADED": {
+      "source_file": "PAPA_VERNULSYA_FINAL_UPGRADED.mp4",
+      "times_seconds": [
+        4,
+        9,
+        12,
+        18,
+        24,
+        30,
+        39,
+        48,
+        57,
+        66,
+        72,
+        84,
+        92
+      ],
+      "duration": 105.4
+    },
+    "POSLEDNIY_UROK_EP2": {
+      "source_file": "last_lesson_ep2.mp4",
+      "times_seconds": [
+        3,
+        8,
+        17,
+        30,
+        44,
+        58,
+        71,
+        85,
+        99,
+        112,
+        126,
+        140,
+        153
+      ],
+      "duration": 157.4
+    },
+    "SHAURMECHNAYA_EP1": {
+      "source_file": "shaurma_seria1_v2.mp4",
+      "times_seconds": [
+        3,
+        22,
+        42,
+        61,
+        78,
+        80,
+        100,
+        119,
+        138,
+        158,
+        177,
+        196
+      ],
+      "duration": 219.8
+    },
+    "TEST_NA_KURENIE_EP2": {
+      "source_file": "TEST_NA_KURENIE_SERIES_2.mp4",
+      "times_seconds": [
+        3,
+        13,
+        23,
+        33,
+        42,
+        52,
+        62,
+        72,
+        82,
+        92,
+        102,
+        112
+      ],
+      "duration": 115.6
+    }
+  },
+  "portraits": [
+    {
+      "file": "PAPA_VERNULSYA_EP3/CHARACTER_CROPS/PAPA_boy_black_hoodie_front_013s.png",
+      "source": "PAPA_VERNULSYA_EP3",
+      "timestamp_seconds": 13,
+      "character": "PAPA_boy_black_hoodie_front"
+    },
+    {
+      "file": "PAPA_VERNULSYA_EP3/CHARACTER_CROPS/PAPA_boy_black_hoodie_3quarter_012s.png",
+      "source": "PAPA_VERNULSYA_EP3",
+      "timestamp_seconds": 12,
+      "character": "PAPA_boy_black_hoodie_3quarter"
+    },
+    {
+      "file": "PAPA_VERNULSYA_EP3/CHARACTER_CROPS/PAPA_boy_on_stairs_024s.png",
+      "source": "PAPA_VERNULSYA_EP3",
+      "timestamp_seconds": 24,
+      "character": "PAPA_boy_on_stairs"
+    },
+    {
+      "file": "PAPA_VERNULSYA_EP3/CHARACTER_CROPS/PAPA_boy_street_065s.png",
+      "source": "PAPA_VERNULSYA_EP3",
+      "timestamp_seconds": 65,
+      "character": "PAPA_boy_street"
+    },
+    {
+      "file": "PAPA_VERNULSYA_EP3/CHARACTER_CROPS/PAPA_boy_phone_095s.png",
+      "source": "PAPA_VERNULSYA_EP3",
+      "timestamp_seconds": 95,
+      "character": "PAPA_boy_phone"
+    },
+    {
+      "file": "PAPA_VERNULSYA_EP3/CHARACTER_CROPS/PAPA_boy_shocked_105s.png",
+      "source": "PAPA_VERNULSYA_EP3",
+      "timestamp_seconds": 105,
+      "character": "PAPA_boy_shocked"
+    },
+    {
+      "file": "PAPA_VERNULSYA_EP3/CHARACTER_CROPS/PAPA_second_boy_115s.png",
+      "source": "PAPA_VERNULSYA_EP3",
+      "timestamp_seconds": 115,
+      "character": "PAPA_second_boy"
+    },
+    {
+      "file": "PAPA_VERNULSYA_UPGRADED/CHARACTER_CROPS/PAPA_mother_crying_012s.png",
+      "source": "PAPA_VERNULSYA_UPGRADED",
+      "timestamp_seconds": 12,
+      "character": "PAPA_mother_crying"
+    },
+    {
+      "file": "PAPA_VERNULSYA_UPGRADED/CHARACTER_CROPS/PAPA_mother_closeup_039s.png",
+      "source": "PAPA_VERNULSYA_UPGRADED",
+      "timestamp_seconds": 39,
+      "character": "PAPA_mother_closeup"
+    },
+    {
+      "file": "PAPA_VERNULSYA_UPGRADED/CHARACTER_CROPS/PAPA_mother_expression_048s.png",
+      "source": "PAPA_VERNULSYA_UPGRADED",
+      "timestamp_seconds": 48,
+      "character": "PAPA_mother_expression"
+    },
+    {
+      "file": "PAPA_VERNULSYA_UPGRADED/CHARACTER_CROPS/PAPA_son_doorway_066s.png",
+      "source": "PAPA_VERNULSYA_UPGRADED",
+      "timestamp_seconds": 66,
+      "character": "PAPA_son_doorway"
+    },
+    {
+      "file": "PAPA_VERNULSYA_UPGRADED/CHARACTER_CROPS/PAPA_son_surprised_092s.png",
+      "source": "PAPA_VERNULSYA_UPGRADED",
+      "timestamp_seconds": 92,
+      "character": "PAPA_son_surprised"
+    },
+    {
+      "file": "PAPA_VERNULSYA_UPGRADED/CHARACTER_CROPS/PAPA_family_group_057s.png",
+      "source": "PAPA_VERNULSYA_UPGRADED",
+      "timestamp_seconds": 57,
+      "character": "PAPA_family_group"
+    },
+    {
+      "file": "POSLEDNIY_UROK_EP2/CHARACTER_CROPS/LESSON_teacher_and_student_003s.png",
+      "source": "POSLEDNIY_UROK_EP2",
+      "timestamp_seconds": 3,
+      "character": "LESSON_teacher_and_student"
+    },
+    {
+      "file": "POSLEDNIY_UROK_EP2/CHARACTER_CROPS/LESSON_teacher_fear_085s.png",
+      "source": "POSLEDNIY_UROK_EP2",
+      "timestamp_seconds": 85,
+      "character": "LESSON_teacher_fear"
+    },
+    {
+      "file": "POSLEDNIY_UROK_EP2/CHARACTER_CROPS/LESSON_student_fear_112s.png",
+      "source": "POSLEDNIY_UROK_EP2",
+      "timestamp_seconds": 112,
+      "character": "LESSON_student_fear"
+    },
+    {
+      "file": "POSLEDNIY_UROK_EP2/CHARACTER_CROPS/LESSON_student_closeup_126s.png",
+      "source": "POSLEDNIY_UROK_EP2",
+      "timestamp_seconds": 126,
+      "character": "LESSON_student_closeup"
+    },
+    {
+      "file": "POSLEDNIY_UROK_EP2/CHARACTER_CROPS/LESSON_guard_uniform_140s.png",
+      "source": "POSLEDNIY_UROK_EP2",
+      "timestamp_seconds": 140,
+      "character": "LESSON_guard_uniform"
+    },
+    {
+      "file": "POSLEDNIY_UROK_EP2/CHARACTER_CROPS/LESSON_teacher_profile_099s.png",
+      "source": "POSLEDNIY_UROK_EP2",
+      "timestamp_seconds": 99,
+      "character": "LESSON_teacher_profile"
+    },
+    {
+      "file": "SHAURMECHNAYA_EP1/CHARACTER_CROPS/SHAURMA_owner_orange_closeup_100s.png",
+      "source": "SHAURMECHNAYA_EP1",
+      "timestamp_seconds": 100,
+      "character": "SHAURMA_owner_orange_closeup"
+    },
+    {
+      "file": "SHAURMECHNAYA_EP1/CHARACTER_CROPS/SHAURMA_customer_group_119s.png",
+      "source": "SHAURMECHNAYA_EP1",
+      "timestamp_seconds": 119,
+      "character": "SHAURMA_customer_group"
+    },
+    {
+      "file": "SHAURMECHNAYA_EP1/CHARACTER_CROPS/SHAURMA_competitor_black_158s.png",
+      "source": "SHAURMECHNAYA_EP1",
+      "timestamp_seconds": 158,
+      "character": "SHAURMA_competitor_black"
+    },
+    {
+      "file": "SHAURMECHNAYA_EP1/CHARACTER_CROPS/SHAURMA_worker_side_078s.png",
+      "source": "SHAURMECHNAYA_EP1",
+      "timestamp_seconds": 78,
+      "character": "SHAURMA_worker_side"
+    },
+    {
+      "file": "TEST_NA_KURENIE_EP2/CHARACTER_CROPS/TEST_student_blue_023s.png",
+      "source": "TEST_NA_KURENIE_EP2",
+      "timestamp_seconds": 23,
+      "character": "TEST_student_blue"
+    },
+    {
+      "file": "TEST_NA_KURENIE_EP2/CHARACTER_CROPS/TEST_doctor_white_052s.png",
+      "source": "TEST_NA_KURENIE_EP2",
+      "timestamp_seconds": 52,
+      "character": "TEST_doctor_white"
+    },
+    {
+      "file": "TEST_NA_KURENIE_EP2/CHARACTER_CROPS/TEST_boy_blue_closeup_072s.png",
+      "source": "TEST_NA_KURENIE_EP2",
+      "timestamp_seconds": 72,
+      "character": "TEST_boy_blue_closeup"
+    },
+    {
+      "file": "TEST_NA_KURENIE_EP2/CHARACTER_CROPS/TEST_boy_red_closeup_082s.png",
+      "source": "TEST_NA_KURENIE_EP2",
+      "timestamp_seconds": 82,
+      "character": "TEST_boy_red_closeup"
+    },
+    {
+      "file": "TEST_NA_KURENIE_EP2/CHARACTER_CROPS/TEST_boy_frightened_112s.png",
+      "source": "TEST_NA_KURENIE_EP2",
+      "timestamp_seconds": 112,
+      "character": "TEST_boy_frightened"
+    },
+    {
+      "file": "TEST_NA_KURENIE_EP2/CHARACTER_CROPS/TEST_doctor_student_003s.png",
+      "source": "TEST_NA_KURENIE_EP2",
+      "timestamp_seconds": 3,
+      "character": "TEST_doctor_student"
+    }
+  ]
+}
