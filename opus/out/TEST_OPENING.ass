@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter,80,&H00FFFFFF,&H00FFFFFF,&H00101010,&H99000000,-1,0,0,0,100,100,0,0,1,4,3,2,90,90,123,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.03,0:00:01.86,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты идёшь по пустой улице.
+Dialogue: 0,0:00:02.16,0:00:04.50,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Но за тобой кто-то идёт.
+Dialogue: 0,0:00:04.90,0:00:06.03,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты этого не видишь.
+Dialogue: 0,0:00:06.30,0:00:07.66,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Зато видит {\c&H40D1FD&}камера.{\c&HFFFFFF&}
