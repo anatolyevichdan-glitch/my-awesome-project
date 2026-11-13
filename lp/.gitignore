@@ -1,0 +1,7 @@
+final/
+__pycache__/
+anim/
+audio/cache/
+*.wav
+*.npy
+*.raw
