@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter,80,&H00FFFFFF,&H00FFFFFF,&H00101010,&H99000000,-1,0,0,0,100,100,0,0,1,4,3,2,90,90,123,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.03,0:00:01.86,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты идёшь по пустой улице.
+Dialogue: 0,0:00:02.16,0:00:04.50,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Но за тобой кто-то идёт.
+Dialogue: 0,0:00:04.90,0:00:06.03,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты этого не видишь.
+Dialogue: 0,0:00:06.30,0:00:07.66,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Зато видит {\c&H40D1FD&}камера.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.00,0:00:10.13,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Высокий чёрный\N{\c&H40D1FD&}силуэт{\c&HFFFFFF&} появляется
+Dialogue: 0,0:00:10.16,0:00:11.63,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}прямо за твоей спиной.
+Dialogue: 0,0:00:11.93,0:00:13.06,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты ускоряешь шаг.
+Dialogue: 0,0:00:13.30,0:00:14.00,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Он тоже.
+Dialogue: 0,0:00:14.33,0:00:15.50,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты останавливаешься.
+Dialogue: 0,0:00:15.80,0:00:17.26,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}И он замирает.
+Dialogue: 0,0:00:17.56,0:00:18.73,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Телефон вибрирует.
+Dialogue: 0,0:00:18.93,0:00:19.66,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Сообщение
+Dialogue: 0,0:00:19.70,0:00:20.93,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}с неизвестного номера.
+Dialogue: 0,0:00:21.36,0:00:22.63,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}{\c&H3A41E8&}Не{\c&HFFFFFF&} {\c&H3A41E8&}оборачивайся.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.93,0:00:24.40,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты резко поднимаешь глаза.
+Dialogue: 0,0:00:24.60,0:00:25.73,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}В отражении {\c&H40D1FD&}витрины{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.73,0:00:26.70,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}видишь себя.
+Dialogue: 0,0:00:26.90,0:00:29.10,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Но за твоей спиной никого нет.
+Dialogue: 0,0:00:29.40,0:00:30.33,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты выдыхаешь.
+Dialogue: 0,0:00:30.63,0:00:32.50,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}И вдруг замечаешь странность.
+Dialogue: 0,0:00:32.73,0:00:34.06,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Твоё {\c&H40D1FD&}отражение{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.30,0:00:35.43,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}не выдыхает.
+Dialogue: 0,0:00:35.73,0:00:37.23,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Оно продолжает смотреть
+Dialogue: 0,0:00:37.23,0:00:38.30,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}прямо на тебя.
+Dialogue: 0,0:00:38.53,0:00:40.03,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}А потом медленно
+Dialogue: 0,0:00:40.03,0:00:41.73,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}поднимает {\c&H40D1FD&}палец{\c&HFFFFFF&} к губам.
+Dialogue: 0,0:00:42.10,0:00:43.03,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}{\c&H40D1FD&}Тсс!{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.30,0:00:44.80,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты отскакиваешь от витрины.
+Dialogue: 0,0:00:44.96,0:00:46.16,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}На телефоне появляется
+Dialogue: 0,0:00:46.16,0:00:47.30,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}новое сообщение.
+Dialogue: 0,0:00:47.56,0:00:48.80,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Он не за тобой.
+Dialogue: 0,0:00:49.06,0:00:49.93,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты замираешь.
+Dialogue: 0,0:00:50.20,0:00:51.43,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Приходит следующее.
+Dialogue: 0,0:00:51.73,0:00:53.40,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Он {\c&H3A41E8&}внутри{\c&HFFFFFF&} {\c&H3A41E8&}тебя.{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.70,0:00:54.83,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}В этот момент {\c&H40D1FD&}фонари{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.83,0:00:56.40,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}на улице начинают гаснуть.
+Dialogue: 0,0:00:56.60,0:00:57.20,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Один.
+Dialogue: 0,0:00:57.36,0:00:58.00,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Второй.
+Dialogue: 0,0:00:58.20,0:00:58.86,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Третий.
+Dialogue: 0,0:00:59.10,0:01:00.40,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты бросаешься бежать.
+Dialogue: 0,0:01:00.56,0:01:01.63,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}За спиной слышится
+Dialogue: 0,0:01:01.63,0:01:02.80,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}тяжёлое дыхание.
+Dialogue: 0,0:01:02.96,0:01:04.20,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты сворачиваешь во двор
+Dialogue: 0,0:01:04.26,0:01:05.63,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}и врезаешься в человека.
+Dialogue: 0,0:01:05.80,0:01:06.83,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Поднимаешь голову.
+Dialogue: 0,0:01:07.03,0:01:08.30,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Перед тобой стоишь
+Dialogue: 0,0:01:08.63,0:01:09.36,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}ты сам.
+Dialogue: 0,0:01:09.63,0:01:10.56,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Та же одежда.
+Dialogue: 0,0:01:10.70,0:01:11.60,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}То же лицо.
+Dialogue: 0,0:01:11.76,0:01:12.76,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Только глаза
+Dialogue: 0,0:01:12.86,0:01:14.53,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}{\c&H3A41E8&}совершенно{\c&HFFFFFF&} {\c&H3A41E8&}чёрные.{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.80,0:01:16.60,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}{\c&H40D1FD&}Двойник{\c&HFFFFFF&} хватает тебя за плечи
+Dialogue: 0,0:01:16.66,0:01:17.36,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}и шепчет.
+Dialogue: 0,0:01:17.53,0:01:18.90,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Слушай внимательно.
+Dialogue: 0,0:01:19.20,0:01:21.23,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты должен перестать убегать.
+Dialogue: 0,0:01:21.50,0:01:22.80,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты пытаешься вырваться,
+Dialogue: 0,0:01:22.90,0:01:24.06,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}но он смотрит куда-то
+Dialogue: 0,0:01:24.06,0:01:25.00,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}за твою спину.
+Dialogue: 0,0:01:25.16,0:01:26.50,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Его лицо меняется.
+Dialogue: 0,0:01:26.63,0:01:28.13,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Впервые он выглядит
+Dialogue: 0,0:01:28.13,0:01:29.86,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}по-настоящему {\c&H40D1FD&}испуганным.{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.23,0:01:30.83,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Нет.
+Dialogue: 0,0:01:31.13,0:01:32.73,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Он нашёл {\c&H40D1FD&}нас{\c&HFFFFFF&} {\c&H40D1FD&}обоих.{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.00,0:01:33.70,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Ты медленно
+Dialogue: 0,0:01:33.70,0:01:34.96,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}поворачиваешь голову.
+Dialogue: 0,0:01:35.16,0:01:36.50,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}На крыше {\c&H40D1FD&}девятиэтажки{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.50,0:01:38.76,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}стоит огромная чёрная {\c&H40D1FD&}фигура.{\c&HFFFFFF&}
+Dialogue: 0,0:01:38.96,0:01:40.40,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Она наклоняется вниз
+Dialogue: 0,0:01:40.56,0:01:42.50,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}и произносит твоим голосом.
+Dialogue: 0,0:01:42.83,0:01:44.83,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}{\c&H3A41E8&}Кто{\c&HFFFFFF&} {\c&H3A41E8&}из{\c&HFFFFFF&} {\c&H3A41E8&}вас{\c&HFFFFFF&} {\c&H3A41E8&}настоящий?{\c&HFFFFFF&}
+Dialogue: 0,0:01:45.33,0:01:46.30,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Чёрный экран.
+Dialogue: 0,0:01:46.66,0:01:48.33,Sub,,0,0,0,,{\fad(70,70)\fscx97\fscy97\t(0,120,\fscx100\fscy100)}Продолжение следует.

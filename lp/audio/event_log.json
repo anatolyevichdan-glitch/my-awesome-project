@@ -1,0 +1,1198 @@
+{
+ "info": {
+  "music_cal_offset_dB": 30.634645318310973,
+  "sum_guard_max_reduction_dB": -2.562818320105867,
+  "narration_global_gain_dB": 1.454996083416306,
+  "narration_speech_median_LUFS": -17.36822063052447,
+  "duration_s": 134.92245833333334,
+  "samples": 6476278,
+  "master_integrated_LUFS_dualmono_stereo": -17.489865215974532,
+  "master_true_peak_dBTP": -1.514331650315902
+ },
+ "events": [
+  {
+   "t": 0.0,
+   "stem": "ambience",
+   "name": "outdoor street",
+   "peak_dbfs": null,
+   "dur": 10.2,
+   "prominent": false
+  },
+  {
+   "t": 10.2,
+   "stem": "ambience",
+   "name": "bus interior, moving",
+   "peak_dbfs": null,
+   "dur": 82.35,
+   "prominent": false
+  },
+  {
+   "t": 92.55,
+   "stem": "ambience",
+   "name": "blackout (interior bed cut)",
+   "peak_dbfs": null,
+   "dur": 0.8500000000000085,
+   "prominent": false
+  },
+  {
+   "t": 93.4,
+   "stem": "ambience",
+   "name": "bus idle",
+   "peak_dbfs": null,
+   "dur": 1.4399999999999977,
+   "prominent": false
+  },
+  {
+   "t": 95.0,
+   "stem": "ambience",
+   "name": "exterior, fog-muffled",
+   "peak_dbfs": null,
+   "dur": 13.400000000000006,
+   "prominent": false
+  },
+  {
+   "t": 108.6,
+   "stem": "ambience",
+   "name": "near silence + faint rain",
+   "peak_dbfs": null,
+   "dur": 4.0,
+   "prominent": false
+  },
+  {
+   "t": 112.6,
+   "stem": "ambience",
+   "name": "exterior, low drone",
+   "peak_dbfs": null,
+   "dur": 14.5,
+   "prominent": false
+  },
+  {
+   "t": 127.1,
+   "stem": "ambience",
+   "name": "near silence, faint rain/room tone",
+   "peak_dbfs": null,
+   "dur": 5.700000000000017,
+   "prominent": false
+  },
+  {
+   "t": 0.2,
+   "stem": "sfx",
+   "name": "college door squeak",
+   "peak_dbfs": -30,
+   "dur": 0.22,
+   "prominent": false
+  },
+  {
+   "t": 0.3,
+   "stem": "foley",
+   "name": "thud",
+   "peak_dbfs": -30,
+   "dur": 0.2,
+   "prominent": false
+  },
+  {
+   "t": 0.42,
+   "stem": "foley",
+   "name": "step_wet",
+   "peak_dbfs": -21.48664028442124,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 0.946,
+   "stem": "foley",
+   "name": "step_wet",
+   "peak_dbfs": -21.388758724261763,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 1.472,
+   "stem": "foley",
+   "name": "step_wet",
+   "peak_dbfs": -19.231536886968915,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 1.998,
+   "stem": "foley",
+   "name": "step_wet",
+   "peak_dbfs": -21.093896655813417,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 2.524,
+   "stem": "foley",
+   "name": "step_wet",
+   "peak_dbfs": -19.58774249835642,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 3.2,
+   "stem": "sfx",
+   "name": "low-battery chime",
+   "peak_dbfs": -26,
+   "dur": 1.1000208333333332,
+   "prominent": false
+  },
+  {
+   "t": 4.62,
+   "stem": "foley",
+   "name": "step_wet",
+   "peak_dbfs": -20.254753700657233,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 5.146,
+   "stem": "foley",
+   "name": "step_wet",
+   "peak_dbfs": -19.47961332392676,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 5.672,
+   "stem": "foley",
+   "name": "step_wet",
+   "peak_dbfs": -21.020326202049837,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 9.3,
+   "stem": "sfx",
+   "name": "air-brake hiss",
+   "peak_dbfs": -30,
+   "dur": 1.0,
+   "prominent": false
+  },
+  {
+   "t": 9.5,
+   "stem": "sfx",
+   "name": "brake squeal",
+   "peak_dbfs": -33,
+   "dur": 0.55,
+   "prominent": false
+  },
+  {
+   "t": 9.72,
+   "stem": "sfx",
+   "name": "door squeal",
+   "peak_dbfs": -29,
+   "dur": 0.45,
+   "prominent": false
+  },
+  {
+   "t": 9.9,
+   "stem": "sfx",
+   "name": "door pneumatic opening",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 10.5,
+   "stem": "foley",
+   "name": "stair",
+   "peak_dbfs": -22,
+   "dur": 0.5,
+   "prominent": false
+  },
+  {
+   "t": 11.0,
+   "stem": "foley",
+   "name": "stair",
+   "peak_dbfs": -22,
+   "dur": 0.5,
+   "prominent": false
+  },
+  {
+   "t": 13.9,
+   "stem": "sfx",
+   "name": "fluorescent flicker",
+   "peak_dbfs": -34,
+   "dur": 0.55,
+   "prominent": false
+  },
+  {
+   "t": 15.2,
+   "stem": "sfx",
+   "name": "validator beep",
+   "peak_dbfs": -30,
+   "dur": 0.19002083333333333,
+   "prominent": false
+  },
+  {
+   "t": 16.3,
+   "stem": "foley",
+   "name": "rustle",
+   "peak_dbfs": -33,
+   "dur": 0.55,
+   "prominent": false
+  },
+  {
+   "t": 16.9,
+   "stem": "foley",
+   "name": "rustle",
+   "peak_dbfs": -33,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 17.0,
+   "stem": "foley",
+   "name": "creak",
+   "peak_dbfs": -32,
+   "dur": 0.7,
+   "prominent": false
+  },
+  {
+   "t": 17.95,
+   "stem": "sfx",
+   "name": "door close hiss",
+   "peak_dbfs": -30,
+   "dur": 0.7,
+   "prominent": false
+  },
+  {
+   "t": 18.05,
+   "stem": "sfx",
+   "name": "door clunk",
+   "peak_dbfs": -31,
+   "dur": 0.3,
+   "prominent": false
+  },
+  {
+   "t": 18.2,
+   "stem": "sfx",
+   "name": "bus lurch (pulling away)",
+   "peak_dbfs": -32,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 23.8,
+   "stem": "sfx",
+   "name": "shelter whoosh (passing stop)",
+   "peak_dbfs": -35,
+   "dur": 1.1,
+   "prominent": false
+  },
+  {
+   "t": 29.6,
+   "stem": "sfx",
+   "name": "shelter whoosh (passing stop)",
+   "peak_dbfs": -35,
+   "dur": 1.1,
+   "prominent": false
+  },
+  {
+   "t": 30.5,
+   "stem": "sfx",
+   "name": "light flicker",
+   "peak_dbfs": -33,
+   "dur": 0.7,
+   "prominent": false
+  },
+  {
+   "t": 31.8,
+   "stem": "foley",
+   "name": "step_metal",
+   "peak_dbfs": -21.23281190129801,
+   "dur": 0.4,
+   "prominent": false
+  },
+  {
+   "t": 32.2,
+   "stem": "foley",
+   "name": "step_metal",
+   "peak_dbfs": -21.659744150546448,
+   "dur": 0.4,
+   "prominent": false
+  },
+  {
+   "t": 32.62,
+   "stem": "foley",
+   "name": "step_metal",
+   "peak_dbfs": -21.921111805124703,
+   "dur": 0.4,
+   "prominent": false
+  },
+  {
+   "t": 33.02,
+   "stem": "foley",
+   "name": "step_metal",
+   "peak_dbfs": -22.006800529520543,
+   "dur": 0.4,
+   "prominent": false
+  },
+  {
+   "t": 33.4,
+   "stem": "foley",
+   "name": "step_metal",
+   "peak_dbfs": -22.327004838487184,
+   "dur": 0.4,
+   "prominent": false
+  },
+  {
+   "t": 32.5,
+   "stem": "sfx",
+   "name": "light flicker",
+   "peak_dbfs": -33,
+   "dur": 0.5,
+   "prominent": false
+  },
+  {
+   "t": 36.9,
+   "stem": "foley",
+   "name": "cloth",
+   "peak_dbfs": -33,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 39.0,
+   "stem": "foley",
+   "name": "neck",
+   "peak_dbfs": -34,
+   "dur": 0.9,
+   "prominent": false
+  },
+  {
+   "t": 42.9,
+   "stem": "foley",
+   "name": "scuff",
+   "peak_dbfs": -28,
+   "dur": 0.16,
+   "prominent": false
+  },
+  {
+   "t": 43.2,
+   "stem": "foley",
+   "name": "clank",
+   "peak_dbfs": -24,
+   "dur": 1.0,
+   "prominent": false
+  },
+  {
+   "t": 44.3,
+   "stem": "sfx",
+   "name": "turn whoosh",
+   "peak_dbfs": -27,
+   "dur": 0.4,
+   "prominent": false
+  },
+  {
+   "t": 44.5,
+   "stem": "sfx",
+   "name": "horror impact",
+   "peak_dbfs": -9,
+   "dur": 1.7,
+   "prominent": true
+  },
+  {
+   "t": 49.7,
+   "stem": "foley",
+   "name": "rustle",
+   "peak_dbfs": -30,
+   "dur": 0.55,
+   "prominent": false
+  },
+  {
+   "t": 51.2,
+   "stem": "sfx",
+   "name": "ceiling light flicker (old woman)",
+   "peak_dbfs": -33,
+   "dur": 0.5,
+   "prominent": false
+  },
+  {
+   "t": 52.5,
+   "stem": "sfx",
+   "name": "ceiling light flicker (old woman)",
+   "peak_dbfs": -33,
+   "dur": 0.45,
+   "prominent": false
+  },
+  {
+   "t": 53.8,
+   "stem": "sfx",
+   "name": "ceiling light flicker (old woman)",
+   "peak_dbfs": -33,
+   "dur": 0.5,
+   "prominent": false
+  },
+  {
+   "t": 55.0,
+   "stem": "sfx",
+   "name": "ceiling light flicker (old woman)",
+   "peak_dbfs": -33,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 52.0,
+   "stem": "foley",
+   "name": "creak",
+   "peak_dbfs": -38,
+   "dur": 0.7,
+   "prominent": false
+  },
+  {
+   "t": 59.95,
+   "stem": "foley",
+   "name": "run_metal",
+   "peak_dbfs": -18.107419166283073,
+   "dur": 0.3,
+   "prominent": false
+  },
+  {
+   "t": 60.28,
+   "stem": "foley",
+   "name": "run_metal",
+   "peak_dbfs": -19.727000093130677,
+   "dur": 0.3,
+   "prominent": false
+  },
+  {
+   "t": 60.6,
+   "stem": "foley",
+   "name": "run_metal",
+   "peak_dbfs": -19.20347549539773,
+   "dur": 0.3,
+   "prominent": false
+  },
+  {
+   "t": 60.92,
+   "stem": "foley",
+   "name": "run_metal",
+   "peak_dbfs": -18.941580550767046,
+   "dur": 0.3,
+   "prominent": false
+  },
+  {
+   "t": 61.22,
+   "stem": "foley",
+   "name": "run_metal",
+   "peak_dbfs": -18.623748391387775,
+   "dur": 0.3,
+   "prominent": false
+  },
+  {
+   "t": 61.5,
+   "stem": "foley",
+   "name": "button",
+   "peak_dbfs": -26,
+   "dur": 0.05,
+   "prominent": false
+  },
+  {
+   "t": 62.0,
+   "stem": "foley",
+   "name": "button",
+   "peak_dbfs": -26,
+   "dur": 0.05,
+   "prominent": false
+  },
+  {
+   "t": 62.5,
+   "stem": "foley",
+   "name": "button",
+   "peak_dbfs": -26,
+   "dur": 0.05,
+   "prominent": false
+  },
+  {
+   "t": 63.3,
+   "stem": "foley",
+   "name": "thud",
+   "peak_dbfs": -24,
+   "dur": 0.25,
+   "prominent": false
+  },
+  {
+   "t": 63.45,
+   "stem": "foley",
+   "name": "thud",
+   "peak_dbfs": -27,
+   "dur": 0.2,
+   "prominent": false
+  },
+  {
+   "t": 63.35,
+   "stem": "foley",
+   "name": "breath_in",
+   "peak_dbfs": -33,
+   "dur": 0.4,
+   "prominent": false
+  },
+  {
+   "t": 63.8,
+   "stem": "foley",
+   "name": "breath_out",
+   "peak_dbfs": -33,
+   "dur": 0.45,
+   "prominent": false
+  },
+  {
+   "t": 64.25,
+   "stem": "foley",
+   "name": "breath_in",
+   "peak_dbfs": -36,
+   "dur": 0.4,
+   "prominent": false
+  },
+  {
+   "t": 64.4,
+   "stem": "sfx",
+   "name": "phone vibration",
+   "peak_dbfs": -29,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 65.0,
+   "stem": "sfx",
+   "name": "phone vibration",
+   "peak_dbfs": -29,
+   "dur": 0.28,
+   "prominent": false
+  },
+  {
+   "t": 66.4,
+   "stem": "sfx",
+   "name": "message notification",
+   "peak_dbfs": -28,
+   "dur": 1.2,
+   "prominent": false
+  },
+  {
+   "t": 68.3,
+   "stem": "sfx",
+   "name": "message notification",
+   "peak_dbfs": -28,
+   "dur": 1.2,
+   "prominent": false
+  },
+  {
+   "t": 69.7,
+   "stem": "sfx",
+   "name": "message notification",
+   "peak_dbfs": -28,
+   "dur": 1.2,
+   "prominent": false
+  },
+  {
+   "t": 73.4,
+   "stem": "foley",
+   "name": "tap",
+   "peak_dbfs": -33,
+   "dur": 0.04,
+   "prominent": false
+  },
+  {
+   "t": 76.0,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 77.0,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 77.973,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 78.921,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 79.846,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 80.749,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 81.633,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 82.498,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 83.345,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 84.175,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 84.99,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 85.79,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 86.577,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 87.349,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -30,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 88.0,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -29,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 88.75,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -29,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 89.5,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -29,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 90.25,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -29,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 91.0,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -29,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 91.75,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -29,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 114.0,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 115.0,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 115.985,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 116.955,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 117.912,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 118.855,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 119.785,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 120.704,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 121.61,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 122.505,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 123.39,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 124.263,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 125.127,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 125.981,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 126.825,
+   "stem": "sfx",
+   "name": "heartbeat",
+   "peak_dbfs": -36,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 82.3,
+   "stem": "sfx",
+   "name": "count pulse 1",
+   "peak_dbfs": -34,
+   "dur": 0.18,
+   "prominent": false
+  },
+  {
+   "t": 83.46,
+   "stem": "sfx",
+   "name": "count pulse 2",
+   "peak_dbfs": -34,
+   "dur": 0.18,
+   "prominent": false
+  },
+  {
+   "t": 84.4,
+   "stem": "sfx",
+   "name": "count pulse 3",
+   "peak_dbfs": -34,
+   "dur": 0.18,
+   "prominent": false
+  },
+  {
+   "t": 85.06,
+   "stem": "sfx",
+   "name": "count pulse 4",
+   "peak_dbfs": -34,
+   "dur": 0.18,
+   "prominent": false
+  },
+  {
+   "t": 86.08,
+   "stem": "sfx",
+   "name": "count pulse 5",
+   "peak_dbfs": -34,
+   "dur": 0.18,
+   "prominent": false
+  },
+  {
+   "t": 86.72,
+   "stem": "sfx",
+   "name": "count pulse 6",
+   "peak_dbfs": -34,
+   "dur": 0.18,
+   "prominent": false
+  },
+  {
+   "t": 87.56,
+   "stem": "sfx",
+   "name": "count pulse 7",
+   "peak_dbfs": -34,
+   "dur": 0.18,
+   "prominent": false
+  },
+  {
+   "t": 92.0,
+   "stem": "sfx",
+   "name": "light pop",
+   "peak_dbfs": -31.0,
+   "dur": 0.45,
+   "prominent": false
+  },
+  {
+   "t": 92.14,
+   "stem": "sfx",
+   "name": "light pop",
+   "peak_dbfs": -31.0,
+   "dur": 0.45,
+   "prominent": false
+  },
+  {
+   "t": 92.28,
+   "stem": "sfx",
+   "name": "light pop",
+   "peak_dbfs": -31.0,
+   "dur": 0.45,
+   "prominent": false
+  },
+  {
+   "t": 92.42,
+   "stem": "sfx",
+   "name": "light pop",
+   "peak_dbfs": -31.0,
+   "dur": 0.45,
+   "prominent": false
+  },
+  {
+   "t": 92.52,
+   "stem": "sfx",
+   "name": "final light dies",
+   "peak_dbfs": -30,
+   "dur": 0.45,
+   "prominent": false
+  },
+  {
+   "t": 92.62,
+   "stem": "sfx",
+   "name": "tyre/brake screech",
+   "peak_dbfs": -31,
+   "dur": 0.85,
+   "prominent": true
+  },
+  {
+   "t": 92.68,
+   "stem": "sfx",
+   "name": "body lurch",
+   "peak_dbfs": -27,
+   "dur": 0.6,
+   "prominent": false
+  },
+  {
+   "t": 92.75,
+   "stem": "sfx",
+   "name": "metal rattle",
+   "peak_dbfs": -33,
+   "dur": 0.9,
+   "prominent": false
+  },
+  {
+   "t": 94.84,
+   "stem": "sfx",
+   "name": "door pneumatic opening",
+   "peak_dbfs": -29,
+   "dur": 0.8,
+   "prominent": false
+  },
+  {
+   "t": 94.86,
+   "stem": "sfx",
+   "name": "door squeal",
+   "peak_dbfs": -30,
+   "dur": 0.5,
+   "prominent": false
+  },
+  {
+   "t": 98.45,
+   "stem": "foley",
+   "name": "run_wet",
+   "peak_dbfs": -19.669438152207555,
+   "dur": 0.24,
+   "prominent": false
+  },
+  {
+   "t": 98.73,
+   "stem": "foley",
+   "name": "run_wet",
+   "peak_dbfs": -18.383402300562047,
+   "dur": 0.24,
+   "prominent": false
+  },
+  {
+   "t": 99.01,
+   "stem": "foley",
+   "name": "run_wet",
+   "peak_dbfs": -18.702439115904053,
+   "dur": 0.24,
+   "prominent": false
+  },
+  {
+   "t": 99.29,
+   "stem": "foley",
+   "name": "run_wet",
+   "peak_dbfs": -18.77790721013678,
+   "dur": 0.24,
+   "prominent": false
+  },
+  {
+   "t": 99.57,
+   "stem": "foley",
+   "name": "run_wet",
+   "peak_dbfs": -19.63882747386452,
+   "dur": 0.24,
+   "prominent": false
+  },
+  {
+   "t": 99.0,
+   "stem": "foley",
+   "name": "splash",
+   "peak_dbfs": -25,
+   "dur": 0.4,
+   "prominent": false
+  },
+  {
+   "t": 99.95,
+   "stem": "sfx",
+   "name": "door close hiss",
+   "peak_dbfs": -31,
+   "dur": 0.7,
+   "prominent": false
+  },
+  {
+   "t": 100.05,
+   "stem": "sfx",
+   "name": "door close thunk",
+   "peak_dbfs": -33,
+   "dur": 0.3,
+   "prominent": false
+  },
+  {
+   "t": 101.7,
+   "stem": "foley",
+   "name": "breath_out",
+   "peak_dbfs": -30,
+   "dur": 0.8,
+   "prominent": false
+  },
+  {
+   "t": 103.0,
+   "stem": "sfx",
+   "name": "dial tone 8",
+   "peak_dbfs": -37,
+   "dur": 0.07,
+   "prominent": false
+  },
+  {
+   "t": 103.14,
+   "stem": "sfx",
+   "name": "dial tone 9",
+   "peak_dbfs": -37,
+   "dur": 0.07,
+   "prominent": false
+  },
+  {
+   "t": 103.28,
+   "stem": "sfx",
+   "name": "dial tone 1",
+   "peak_dbfs": -37,
+   "dur": 0.07,
+   "prominent": false
+  },
+  {
+   "t": 103.42,
+   "stem": "sfx",
+   "name": "dial tone 6",
+   "peak_dbfs": -37,
+   "dur": 0.07,
+   "prominent": false
+  },
+  {
+   "t": 103.56,
+   "stem": "sfx",
+   "name": "dial tone 2",
+   "peak_dbfs": -37,
+   "dur": 0.07,
+   "prominent": false
+  },
+  {
+   "t": 103.7,
+   "stem": "sfx",
+   "name": "dial tone 3",
+   "peak_dbfs": -37,
+   "dur": 0.07,
+   "prominent": false
+  },
+  {
+   "t": 103.84,
+   "stem": "sfx",
+   "name": "dial tone 1",
+   "peak_dbfs": -37,
+   "dur": 0.07,
+   "prominent": false
+  },
+  {
+   "t": 104.02,
+   "stem": "sfx",
+   "name": "ringback",
+   "peak_dbfs": -37,
+   "dur": 0.5,
+   "prominent": false
+  },
+  {
+   "t": 104.6,
+   "stem": "foley",
+   "name": "tap",
+   "peak_dbfs": -31,
+   "dur": 0.04,
+   "prominent": false
+  },
+  {
+   "t": 124.9,
+   "stem": "sfx",
+   "name": "faint high tone (wave)",
+   "peak_dbfs": -48,
+   "dur": 1.8,
+   "prominent": false
+  },
+  {
+   "t": 132.3,
+   "stem": "sfx",
+   "name": "SHOCK STING",
+   "peak_dbfs": -4,
+   "dur": 0.95,
+   "prominent": true
+  },
+  {
+   "t": 0.0,
+   "stem": "music",
+   "name": "drone/pad music bed",
+   "peak_dbfs": null,
+   "dur": 127.1,
+   "prominent": false
+  },
+  {
+   "t": 92.55,
+   "stem": "music",
+   "name": "music cut at blackout",
+   "peak_dbfs": null,
+   "dur": 0.0,
+   "prominent": false
+  },
+  {
+   "t": 127.1,
+   "stem": "music",
+   "name": "MUSIC STOPS COMPLETELY",
+   "peak_dbfs": null,
+   "dur": 0.0,
+   "prominent": false
+  }
+ ]
+}
